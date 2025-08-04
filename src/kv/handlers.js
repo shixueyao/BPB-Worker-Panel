@@ -1,5 +1,5 @@
 import { getDomain, resolveDNS } from '../cores-configs/helpers';
-import { fetchWarpConfigs } from '../protocols/warp';
+import { fetchWarpConfigs } from '../protocols/wwww';
 
 export async function getDataset(request, env) {
     let proxySettings, warpConfigs;
